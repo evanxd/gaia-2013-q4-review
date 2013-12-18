@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gaia 2013 Q4 Review</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <pre id="source">
+
+class: center, middle
+
+# [Gaia](http://github.com/mozilla-b2g/gaia) 2013 Q4 Review
+## [:evanxd](http://github.com/evanxd)
+
+---
+
+class: middle, center
+
+# I have open badges
+![Marionette Starter](http://badg.us/media/uploads/badge/2/e/2ebbd5dba3801b3bcd539affac2678d0_image_1383274865_0270.png)
+![Marionette Follower](http://badg.us/media/uploads/badge/8/e/8e884c6020d34b5d126c54c0e4c5ff21_image_1383274890_0014.png)
+
+---
+
+class: middle, center
+
+# Bugzilla Report
+![Bugzilla Report Helper](images/evanxd-bugzilla-report-helper.png)
+### Thanks Alive!
+
+---
+
+class: middle
+
+# Main Contributions
+
+## [Popularize JS Marionette](index.html#5)
+## [Modulize the code in Gaia with AMD](index.html#7)
+## [CalDAV server for Calendar tests](index.html#8)
+## [Get started: build script](index.html#6)
+
+---
+
+class: middle
+
+# For JS Marionette (1/2)
+
+## Help to add more tests in Gaia
+* Calendar app
+* Video app
+* Gallery app
+* Homescreen app
+* Keyboard app
+
+## [File manager plugin for Marionette](https://github.com/mozilla-b2g/marionette-file-manager)
+* Much easier to write tests for device storage things
+
+---
+
+class: middle
+
+# For JS Marionette (2/2)
+
+## [Run tests for specific app](https://github.com/mozilla-b2g/gaia#invoking-tests-for-a-specific-app)
+* Save much time for running tests
+* Refactor the shell script in Makefile
+* Kill dependency of `APP=xxx`
+
+## Debugging tools
+* [marionette-debug](https://github.com/mozilla-b2g/marionette-debug)
+* [marionette-debug-server](https://github.com/mozilla-b2g/marionette-debug-server)
+* [marionette-marker](https://github.com/evanxd/marionette-marker)
+
+---
+
+class: middle
+
+# For Modulization
+
+## [Organize a disscussion for it](http://evanxd.github.io/integrate-requirejs-in-gaia/)
+* Integrate RequireJS in Gaia
+
+## [Draft patch for Settings app](https://github.com/evanxd/gaia/commit/a12fdfce661d8a8c6a43c3cc8930c2257c7d460d)
+## [Disscuss it with the owners and peers](https://bugzilla.mozilla.org/show_bug.cgi?id=950663)
+* Settings and FM Radio apps
+
+---
+
+class: middle
+
+# For Calendar App
+
+## [CalDAV server for Calendar tests](https://bugzilla.mozilla.org/show_bug.cgi?id=932605)
+* Use a [CalDAV server](http://radicale.org/) doesn't need to be compiled
+
+## [Help to OTA things(koi+)](https://bugzilla.mozilla.org/show_bug.cgi?id=944267)
+## [JS Marionette tests](https://bugzilla.mozilla.org/show_bug.cgi?id=949278)
+
+---
+
+class: middle
+
+# For Email App
+
+## [Fix koi+ bugs](https://bugzilla.mozilla.org/buglist.cgi?f1=cf_blocking_b2g&list_id=8939362&o1=equals&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&classification=Client%20Software&emailtype1=exact&query_format=advanced&emailassigned_to1=1&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&email1=evanxd%40mozilla.com&v1=koi%2B&component=Gaia%3A%3AE-Mail&product=Firefox%20OS)
+
+---
+
+class: middle
+
+# Others
+
+## [Mentor Jason for the screenshot tool](https://bugzilla.mozilla.org/show_bug.cgi?id=926801)
+## Do things for Open Badge
+* Creator for [Marionette Starter](http://badg.us/en-US/badges/badge/Marionette-Starter) and [Marionette Follower](http://badg.us/en-US/badges/badge/Marionette-Follower)
+* Sharing the experience to the Marketing team
+
+## [Share experience to win a hackathon](http://evanxd.github.io/introduce-mozart/)
+
+---
+
+class: middle
+
+# 2014 Q1 Plan (1/3)
+## [Productivity team](https://wiki.mozilla.org/FirefoxOS/productivity)
+* Support more CalDAV things in 1.4 Calendar app
+* [Invitation receipt](https://bugzilla.mozilla.org/show_bug.cgi?id=932254)
+* [Moving events between calendars](https://bugzilla.mozilla.org/show_bug.cgi?id=932263)
+* [Calendar edit and resend event](https://bugzilla.mozilla.org/show_bug.cgi?id=932260)
+
+## [Important things](https://www.google.com.tw/search?q=important+things&client=firefox-a&hs=h2p&rls=org.mozilla:en-US:official&channel=fflb&source=lnms&tbm=isch&sa=X&ei=timxUq7EL4v9lAWHtIGQDQ&ved=0CAkQ_AUoAQ&biw=1200&bih=659)
+* Integrate RequireJS for Settings and FM Radio apps
+* Refactor unit test-agent to kill dependency of tests
+
+---
+
+class: middle
+
+# 2014 Q1 Plan (2/3)
+
+## Build script
+* Kill the shell script in Makefile, [gaia-marionette](https://github.com/mozilla-b2g/gaia/blob/master/bin/gaia-marionette)
+* JavaScript wins!
+
+## [For contributors](https://mozillians.org/en-US/)
+* Marionette talks: contributors do testing things
+* Mentor a Europe boy for file manager app?
+
+---
+
+class: middle
+
+# 2014 Q1 Plan (3/3)
+
+## [JS Marionette](https://bugzilla.mozilla.org/buglist.cgi?list_id=8942065&resolution=---&classification=Components&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=JSMarionette&product=Testing)
+* Run JS Marionette test on device
+* Monkey test plugin
+* Integrate marionette-debug-server in Travis
+
+---
+
+class: middle, center
+
+# One more thing
+
+---
+
+class: middle
+
+# Be a judge in 12/21
+* The "[進擊の Web](https://firefox.club.tw/events/attack-on-web/)" competition
+
+![進擊の Web](https://firefox.club.tw/static/img/attack_on_web_main_feature.png)
+
+---
+
+class: middle, center
+
+# Thanks :)
+
+  </pre>
+  <script src="http://gnab.github.io/remark/downloads/remark-0.5.7.min.js"></script>
+  <script type="text/javascript">
+    var slideshow = remark.create();
+  </script>
+</body>
+</html>
